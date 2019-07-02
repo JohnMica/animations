@@ -1,0 +1,32 @@
+.btn13 {
+	@include btn(390px, 300px);
+
+	.icon {
+		@include icon(4px, 30px);
+
+		&:before {
+			@include icon-before(4px, 30px, -10px);
+		}
+
+		&:after {
+			@include icon-after(4px, 30px, 10px);
+		}
+	}
+
+	&.open {
+		.icon {
+			transition: 0.5s;
+
+			&:before {
+				transform: rotateZ(-45deg) scaleX(0.75) translate(-10px, -3px);
+			}
+
+			&:after {
+				transform: rotateZ(45deg) scaleX(0.75) translate(-10px, 3px);
+			}
+		}
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
