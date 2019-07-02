@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+.logo-img,
+.menu-img {
+	height: 35px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social-link {
+	height: 48px;
+	padding: 0.5rem;
+	display: inline-flex;
+}
+.social-img {
+	height: 100%;
+}
