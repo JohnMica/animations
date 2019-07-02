@@ -15,16 +15,76 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "/build/css/main.css",
+		"oAP": "/build/build/css/main.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/build/img/behance.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/behance.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/dribble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/dribble.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/menu-open.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/menu-open.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/picture.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/picture.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/build/img/pinterest.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/build/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/build/index.html",
+		"oAP": "/build/build/index.html",
 		"oF": 0
 		},
 	"/build/js/main.js": {
@@ -33,10 +93,50 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/main.js",
+		"oAP": "/build/build/js/main.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/build/js/main.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/build/js/main.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/build/build/main.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/build/main.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/build/main.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/build/README.html",
+		"oF": 0
 		},
 	"/css/_menu-btn.scss": {
 		"aP": 1,
@@ -46,7 +146,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_menu-btn.css",
+		"oAP": "/build/css/_menu-btn.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -59,7 +159,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_mixins.css",
+		"oAP": "/build/css/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -72,7 +172,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_variables.css",
+		"oAP": "/build/css/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -82,8 +182,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "/css/main.css",
+		"oA": 1,
+		"oAP": "/build/css/main.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -95,7 +195,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/main.css",
+		"oAP": "/build/css/main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -105,7 +205,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/build/index.html",
 		"oF": 0
 		},
 	"/js/main.js": {
@@ -114,7 +214,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/main.min.js",
+		"oAP": "/build/js/main.min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 1
@@ -124,8 +224,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/main.min.js",
+		"oA": 1,
+		"oAP": "/build/js/main.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -427,7 +527,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2489,7 +2589,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
