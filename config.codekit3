@@ -17,7 +17,7 @@
 		},
 	"/css/_menu-btn.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -25,12 +25,12 @@
 		"oA": 1,
 		"oAP": "/build/css/_menu-btn.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/_mixins.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -38,12 +38,12 @@
 		"oA": 1,
 		"oAP": "/build/css/_mixins.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/_variables.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -51,7 +51,7 @@
 		"oA": 1,
 		"oAP": "/build/css/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/main.css": {
@@ -66,7 +66,7 @@
 		},
 	"/css/main.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -74,8 +74,28 @@
 		"oA": 0,
 		"oAP": "/build/css/main.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
+		},
+	"/img/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/logo.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/menu.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -101,8 +121,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/js/main.min.js",
+		"oA": 0,
+		"oAP": "/build/js/main.min.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -403,7 +423,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"browserslistString": ">0.2%, last 2 versions",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -866,7 +886,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1984,11 +2004,11 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathFilenamePattern": "*.min.js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
@@ -2097,9 +2117,9 @@
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
