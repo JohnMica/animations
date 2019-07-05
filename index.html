@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Document</title>
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="icon" href="img/favicon.png" />
 	</head>
 	<body>
 		<header class="header">
@@ -19,13 +20,13 @@
 			</nav>
 		</header>
 		<main class="main-content">
+			<a href="#" class="sidebar-menu-btn" id="sidebar-menu-btn" role="button">
+				<img src="img/menu.svg" alt="img" class="menu-img" />
+			</a>
 			<aside class="side-nav " role="navigation" id="sidebar">
-				<a href="#" id="menu-btn" class="nav-link nav-btn" role="button">
-					Menu
-				</a>
-				<a href="#" class="nav-link">Web Design & Development</a>
-				<a href="#" class="nav-link">Media Production</a>
-				<a href="#" class="nav-link">Brand Identity</a>
+				<a href="#" class="nav-link">Web Design & Development </a>
+				<a href="#" class="nav-link">Media Production </a>
+				<a href="#" class="nav-link">Brand Identity </a>
 				<a href="#" class="nav-link">About us</a>
 				<a href="#" class="nav-link">Contact us</a>
 			</aside>
@@ -34,26 +35,56 @@
 					<div class="links-wrapper">
 						<h3 class="page-title ">Web Design & Development</h3>
 						<div class="inpage-links">
+							<svg>
+								<defs>
+									<filter id="goo">
+										<feGaussianBlur
+											in="SourceGraphic"
+											stdDeviation="8"
+											result="blur"
+										/>
+										<feColorMatrix
+											in="blur"
+											mode="matrix"
+											values="
+                1 0 0 0 0 
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 50 -8"
+											result="goo"
+										/>
+										<feBlend in="SourceGraphic" in2="goo" />
+									</filter>
+								</defs>
+							</svg>
 							<a
 								href="#responsive-design"
 								data-target="responsive-design"
 								class="page-link"
-								>Responsive Web Design</a
-							>
+								title="Responsive Design"
+								>Responsive Design
+								<span class="icon">R</span>
+							</a>
 							<a
 								href="#accesibility"
 								data-target="accesibility"
 								class="page-link"
-								>Accesibility</a
+								title="Accesibility"
+								>Accesibility <span class="icon">A</span></a
 							>
-							<a href="#friendly-cms" data-target="e-commerce" class="page-link"
-								>Friendly CMS</a
+							<a
+								href="#friendly-cms"
+								title="Friendly CMS"
+								data-target="e-commerce"
+								class="page-link"
+								>Friendly CMS <span class="icon">C</span></a
 							>
 							<a
 								href="#e-commerce "
 								data-target="friendly-cms"
 								class="page-link"
-								>E-commerce</a
+								title="E-Commerce"
+								>E-commerce <span class="icon">E</span></a
 							>
 						</div>
 					</div>
@@ -157,6 +188,6 @@
 			</div>
 		</footer>
 
-		<script src="js/main.min.js" type="text/javascript"></script>
+		<script src="js/main-min.js" type="text/javascript"></script>
 	</body>
 </html>

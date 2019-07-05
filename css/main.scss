@@ -20,7 +20,7 @@ header {
 	grid-row: 1/2;
 	position: sticky;
 	top: 0;
-	background-color: #fff;
+	background-color: rgb(218, 218, 218);
 	z-index: 2;
 	padding: 1rem;
 	height: fit-content;
@@ -37,6 +37,11 @@ footer {
 	padding: 1rem;
 	text-align: right;
 	height: fit-content;
+}
+
+object,
+svg {
+	pointer-events: none;
 }
 
 .navbar {
@@ -58,18 +63,59 @@ footer {
 	flex-flow: column nowrap;
 	justify-content: center;
 	opacity: 0;
-	visibility: hidden;
+	visibility: visible;
 	top: 0;
 	height: 100%;
 	left: 0;
 	transition: all 0.5s;
-	transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-80%, 0, 0);
 	&.sidebar-visible {
 		opacity: 1;
 		visibility: visible;
 		padding: 1rem;
-		z-index: 3;
+		width: fit-content;
+		z-index: 1;
 		transform: translate3d(0, 0, 0);
+	}
+}
+
+.nav-link {
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	background-color: darkgray;
+	color: #fff;
+	margin: 1.5rem 0;
+	font-size: 1.2rem;
+	transition: all 0.35s;
+
+	&:after {
+		content: '';
+		position: absolute;
+		right: 0.5rem;
+		top: 100%;
+		width: 2rem;
+		height: 1.2rem;
+		background-color: white;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.35s;
+	}
+
+	&:hover {
+		background-color: darken($color: darkgray, $amount: 10);
+		&:after {
+			content: '';
+			position: absolute;
+			right: 0;
+			top: 100%;
+			width: 2rem;
+			height: 1.2rem;
+			visibility: visible;
+			opacity: 1;
+			background-color: black;
+			transition: all 0.35s;
+		}
 	}
 }
 
@@ -79,11 +125,25 @@ footer {
 	grid-template-columns: minmax(auto, 700px);
 }
 
+.menu {
+	display: none;
+}
+
+.sidebar-menu-btn {
+	display: block;
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	z-index: 3;
+	width: 45px;
+	height: 45px;
+}
+
 .page-content {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
-
+	padding: 1rem;
 	height: 100%;
 
 	.move-right {
@@ -106,8 +166,9 @@ footer {
 	justify-self: center;
 	display: grid;
 	grid-template-columns: 100%;
-	grid-auto-rows: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	transition: all 0.75s;
+	width: 100%;
 	transform: translate3d(0, 0, 0);
 }
 
@@ -131,50 +192,89 @@ footer {
 .inpage-links {
 	grid-column: 1/2;
 	grid-row: 2;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	grid-template-rows: repeat(2, auto);
 	grid-gap: 1rem;
+	position: relative;
 	justify-content: center;
 	align-content: center;
+
+	svg {
+		position: absolute;
+	}
 }
 .page-link {
 	display: inline-flex;
 	padding: 0.5rem 0.75rem;
 	background-color: rgb(150, 146, 146);
+	position: relative;
 	color: white;
 	text-decoration: none;
 	justify-self: center;
 	align-self: center;
+	text-align: center;
+	font-size: inherit;
+	width: fit-content;
+
 	&:hover,
 	&:visited,
 	&:active {
 		background-color: darken($color: rgb(150, 146, 146), $amount: 5);
 		color: white;
 	}
+	.icon {
+		font-size: 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
+	#menu-btn {
+		display: block;
+	}
+	#sidebar-menu-btn {
+		display: none;
+	}
 	.page-link {
 		&:nth-of-type(1) {
 			grid-row: 1/2;
-			grid-column: 2/3;
+			grid-column: 1/2;
 		}
 		&:nth-of-type(2) {
 			grid-row: 1/2;
-			grid-column: 3/4;
+			grid-column: 2/3;
 		}
 	}
 	&:nth-of-type(3) {
-		grid-row: 2/3;
-		grid-column: 2/3;
+		grid-row: 1/2;
+		grid-column: 3/4;
 	}
 	&:nth-of-type(4) {
-		grid-row: 2/3;
-		grid-column: 3/4;
+		grid-row: 1/2;
+		grid-column: 4/5;
 	}
 }
 
+@media screen and (max-width: 586px) {
+	.inpage-links {
+		grid-template-rows: repeat(4, auto);
+		grid-template-columns: repeat(4, auto);
+		width: 100%;
+	}
+	.page-link {
+		font-size: 0;
+		border-radius: 50%;
+		width: 2.3rem;
+		height: 2.3rem;
+		text-align: center;
+
+		.icon {
+			font-size: 1rem;
+			line-height: 1.4;
+		}
+	}
+}
 .child-open {
 	overflow: auto;
 }
@@ -185,7 +285,6 @@ footer {
 
 	.links-wrapper {
 		height: 125px;
-		// transform: height 0.5s;
 	}
 }
 
@@ -194,7 +293,5 @@ footer {
 	height: 100%;
 	opacity: 1;
 	overflow: auto;
-	// z-index: 3;
 	transform: translate3d(0, 0, 0);
-	// transform: opacity 0.75s, visibility 0.75s;
 }
