@@ -46,7 +46,7 @@ document.getElementById('menu-btn').addEventListener(
 		if (!document.querySelector('.page-links').classList.contains('moved')) {
 			document.querySelector('.page-links').classList.add('moved')
 		}
-		document.querySelector('.inpage-links').classList.add('child-open')
+		document.querySelector('.page-content').classList.add('child-open')
 		$targetEl.classList.add('open-section')
 	})
 })
