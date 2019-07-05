@@ -94,6 +94,7 @@ footer {
   opacity: 1;
   visibility: visible;
   padding: 1rem;
+  z-index: 3;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
@@ -250,7 +251,6 @@ footer {
   height: 100%;
   opacity: 1;
   overflow: auto;
-  z-index: 3;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }

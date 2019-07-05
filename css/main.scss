@@ -68,6 +68,7 @@ footer {
 		opacity: 1;
 		visibility: visible;
 		padding: 1rem;
+		z-index: 3;
 		transform: translate3d(0, 0, 0);
 	}
 }
@@ -120,11 +121,13 @@ footer {
 	transition: all 0.75s;
 	transform: translate3d(0, 0, 0);
 }
+
 .page-title {
 	grid-column: 1/2;
 	grid-row: 1;
 	text-align: center;
 }
+
 .inpage-links {
 	grid-column: 1/2;
 	grid-row: 2;
@@ -191,7 +194,7 @@ footer {
 	height: 100%;
 	opacity: 1;
 	overflow: auto;
-	z-index: 3;
+	// z-index: 3;
 	transform: translate3d(0, 0, 0);
 	// transform: opacity 0.75s, visibility 0.75s;
 }
