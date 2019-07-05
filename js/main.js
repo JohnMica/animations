@@ -1,5 +1,3 @@
-
-
 document.getElementById('menu-btn').addEventListener(
 	'click',
 	ev => {
@@ -71,3 +69,24 @@ document.getElementById('sidebar-menu-btn').addEventListener(
 		$targetEl.classList.add('open-section');
 	});
 });
+
+document.addEventListener(
+	'keyup',
+	event => {
+		if (event.keyCode === 27 || event.key === 'Escape') {
+			if (
+				document.getElementById('main-content').classList.contains('move-right')
+			) {
+				document.getElementById('sidebar').classList.remove('sidebar-visible');
+				document.getElementById('main-content').classList.remove('move-right');
+			}
+			if (
+				document.getElementById('sidebar').classList.contains('sidebar-visible')
+			) {
+				document.getElementById('sidebar').classList.remove('sidebar-visible');
+				document.getElementById('main-content').classList.remove('move-right');
+			}
+		}
+	},
+	false
+);
