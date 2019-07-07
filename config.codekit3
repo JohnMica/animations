@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "01F3352C-4369-427F-BEC9-3C655DA319A5"
+		"uuidString": "BE80CA77-436A-4009-89A6-8ABD53749488"
 		}
 	],
 "creatorBuild": "29156",
@@ -17,7 +17,7 @@
 		},
 	"/css/_menu-btn.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -25,12 +25,12 @@
 		"oA": 1,
 		"oAP": "/build/css/_menu-btn.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/_mixins.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -38,12 +38,12 @@
 		"oA": 1,
 		"oAP": "/build/css/_mixins.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/_variables.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -51,7 +51,7 @@
 		"oA": 1,
 		"oAP": "/build/css/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"/css/main.css": {
@@ -60,13 +60,13 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/build/css/main-min.css",
+		"oAP": "/build/css/main.css",
 		"oF": 0,
 		"oS": 3
 		},
 	"/css/main.scss": {
 		"aP": 1,
-		"bl": 0,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -74,15 +74,45 @@
 		"oA": 0,
 		"oAP": "/build/css/main.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
+		},
+	"/img/behance.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/behance.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 1107564691423,
+		"prP": 1
+		},
+	"/img/dribble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/dribble.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/error.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/error.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/img/favicon.png": {
 		"ft": 32768,
 		"iS": 8491,
 		"oA": 0,
 		"oAP": "/build/img/favicon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
@@ -91,20 +121,30 @@
 	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/logo.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"/img/menu.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/img/menu.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/pinterest.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/img/pinterest.svg",
+		"oF": 1,
+		"opt": 1,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -122,8 +162,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/build/js/main-min.js",
-		"oF": 0,
+		"oAP": "/build/js/main.min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 1
 		}
@@ -133,10 +173,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 583752940.22650194,
-	"displayValue": "animations",
+	"creationDate": 583509950.96114004,
+	"displayValue": "slide",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta",
+	"iconImageName": "meme-confusedBaby",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -423,7 +463,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"browserslistString": ">0.2%, last 2 versions",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -567,7 +607,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 17,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -986,7 +1026,7 @@
 			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
 			},
 		"no-extra-semi": {
-			"active": 1,
+			"active": 0,
 			"optionString": ""
 			},
 		"no-fallthrough": {
@@ -1957,8 +1997,8 @@
 		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -2004,20 +2044,20 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathFilenamePattern": "*.min.js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
-		"transpilerStyle": 1
+		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
-		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -2045,7 +2085,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
+		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -2110,16 +2150,16 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "./css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
@@ -2153,7 +2193,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsSVG": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.svg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
